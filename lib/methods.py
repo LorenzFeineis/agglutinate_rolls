@@ -139,6 +139,7 @@ class ClueRoles():
 
         return milp, role_a_clue, role_b_clue
 
+
     def solve(self):
         """Solve the integer linear program."""
         output = self.mixed_integer_linear_program()
